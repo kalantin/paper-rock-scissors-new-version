@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Projekt - Eventy -parametry</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+      h1{
+        margin: 20px 0;
+      }
+			.wrapper {
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				width: 60%;
+				height: 300px;
+				border: 1px solid black;
+			}
+			img {
+				width: 30%;
+				cursor: pointer;
+				border: 3px solid transparent;
+			}
+			.result {
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				border: 1px solid black;
+        padding: 30px;
+        margin: 20px 0;
+				width: 60%;
+			}
+			span {
+				font-weight: bold;
+			}
+			.selected {
+				border: 3px solid black;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Paper, rock, scissors game</h1>
+		<div class="wrapper">
+			<img src="/img/1_FnkQhOGXoRNmYFnPO3gWNA.jpeg" alt="paper" />
+			<img src="/img/hand-2704013_1280.jpg" alt="rock" />
+			<img src="/img/shutterstock_239520823.jpg" alt="scissors" />
+		</div>
+		<div class="result">
+			<p>Your win: <span class="win">0</span></p>
+			<p>Your lose: <span class="lose">0</span></p>
+			<p>Draws: <span class="draw">0 </span></p>
+			<p>Computer: <span class="pc"></span></p>
+			<p>You: <span class="your"></span></p>
+		</div>
+		<h2 class="info">Choose your hand!</h2>
+		<script src="main.js"></script>
+	</body>
+</html>
